@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #cbf3f0;
+}
+main{
+    margin-top: 30px;
+    
+}
+hr{
+    width: 100%;
+    margin: 25px;
+    color: #2ec4b6;
+}
+.contenedorTitulo{
+    font-family: 'Shadows Into Light Two', cursive;
+    background-color: rgba(149, 164, 165, 0.4);
+    color: white;
+    font-size: 40px;
+    position: relative;
+    top: 63px;
+    width: 100%;
+}
+.pie{
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(149, 164, 165, 0.4);
+    position: relative;
+}
+
+#fondo{
+    background-image: url(../images/raza.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+}
+
+#titulo{
+    color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    width: 100%;
+}
+
+#titulo h1{
+    float: left;
+}
+.contenedorNav{
+    width: 95%;
+    margin: auto;
+    font-family: 'Shadows Into Light Two', cursive;
+    font-size: 22px;
+}
+#cabeza{
+    color: white;
+    display: flex;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    height: auto;
+    background-color: rgba(149, 164, 165, 0.4);
+    padding: 5px;
+}
+#cabeza h1{
+    float: left;
+    
+}
+#principal{
+    color: white;
+    margin: auto;
+    top: 55%;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+    padding: 10px;
+}
+.fotos1 img{
+    float: left; 
+    border-radius: 15px;
+    border: 5px solid #03666693;
+    margin: 15px;
+    width: 35%;
+    height: 50%;
+    display: flexbox;
+    position: relative;
+}
+.fotos1 h4{
+    display: flexbox;
+    text-align: center;
+    color: #036666;
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+.fotos1 p{
+    color: #036666;
+    text-align: justify;
+    padding: 1em 1em;
+}
+.tituloVideo{
+    color: #036666;
+    font-size: 25px;
+    padding: 15px;
+
+}
+.menu{
+    float: right;
+    margin-top: 10px;
+    display: block;
+
+}
+.menu li{
+    list-style: none;
+    float: left;
+    margin: 5px auto;
+}
+.menu li ul {
+    display: block;
+    position: absolute;
+    visibility: hidden;
+}
+.menu li ul li{
+    position: relative;
+    height: -145;
+    top: 0px;
+    padding: 10px;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+
+.menu li:hover a{
+    margin-left: 5px;
+    background-color: #0366669a;
+    border-radius: 13px;
+    visibility: visible;
+    display: block;
+}
+
+.contenedorPrincipal{
+    font-weight: 600;
+    font-size: 20px;
+    
+}
+.contenedorPrincipal a{
+    color: white;
+    text-decoration: none;
+    width: 10%;
+    padding: 5px 10px;
+}
+.tituloVideo{
+    width: 95%;
+    text-align: center;
+}
+.tituloVideo iframe{
+    border: 5px solid #036666;
+    width: 19.5em; 
+    height: 11em;
+    padding-bottom: 25px;
+    
+}
+
+.articulo h3{
+    color: #036666;
+    text-align: center;
+    padding: 15px;
+    font-size: 40px;
+}
+.articulo p{
+    color: #036666;
+    text-align: justify;
+    padding: 2vh 3vw;
+}
